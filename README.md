@@ -1,0 +1,3 @@
+This example demonstrates a common issue in TypeScript related to object parameter types.  The `printCoord` function expects an object with `x` and `y` properties. However, TypeScript doesn't throw an error if you pass an object with additional properties. This can mask potential issues in larger applications.
+
+The solution demonstrates how to use optional properties or interfaces to handle cases with extra properties more robustly.
